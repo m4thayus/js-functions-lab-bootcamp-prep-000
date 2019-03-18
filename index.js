@@ -14,7 +14,7 @@ function holidayCountdown(days, holiday) {
   `It's ${days} days until ${holiday}!`
 }
 
-happyHolidays()
+happyHolidays().consoleLog()
 happyHolidaysTo("you")
 happyHolidayTo("Lunar New Year", "you")
 holidayCountdown(20, "Mother's Day")
